@@ -6,4 +6,4 @@ This is a port to Django of [Ghostditor](https://github.com/durgesh-priyaranjan/
 
 ### Background
 
-**Ghosditor** is an standalone markdown editor derived from the open source [repo of Ghost](https://github.com/tryghost/Ghost) blogging engine. The original attempt to extract out editor from **Ghost** was done by [Tim Badolato](https://github.com/timsayshey) which can be found at [Ghost-Markdown-Edito]r(https://github.com/timsayshey/Ghost-Markdown-Editor).
+**Ghosditor** is an standalone markdown editor derived from the open source [repo of Ghost](https://github.com/tryghost/Ghost) blogging engine. The original attempt to extract out editor from **Ghost** was done by [Tim Badolato](https://github.com/timsayshey) which can be found at [Ghost-Markdown-Editor](https://github.com/timsayshey/Ghost-Markdown-Editor).
