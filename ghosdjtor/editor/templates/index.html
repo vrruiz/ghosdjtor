@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+  <head>
+    <title>Ghosditor Demo</title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="{% static "styles/bootstrap.css" %}">
+    <link rel="stylesheet" href="{% static "styles/dropzone.css" %}">
+    <link rel="stylesheet" href="{% static "styles/editor.css" %}">
+    <!--STYLES END-->
+  </head>
+
+  <body>
+    {{ body }}
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    
+    <!--SCRIPTS-->
+    <script src="{% static "js/dropzone.js" %}"></script>
+    <script src="{% static "js/ghostdown.js" %}"></script>
+    <!--SCRIPTS END-->
+  </body>
+</html>
